@@ -37,4 +37,4 @@
 	- ✅ UAT 5.3
     - ✅ refactoring whoWon()
 	- ✅ UAT 5.4
-	- ⚠ UAT 5.5
+	- 🚧 UAT 5.5

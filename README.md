@@ -106,7 +106,7 @@ Given position ["X", "O", "X", "O", "O", "X", "X", "X", "O"]
 When I look for the winner
 Then it should be draw
 
-### ⚠ UAT 5.5
+### 🚧 UAT 5.5
 Given position ["X", "X", "O", " ", " ", " ", "X", " ", "O"]
 When I look for the winner
 Then it should be no winner
