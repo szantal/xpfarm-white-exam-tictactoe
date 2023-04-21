@@ -36,6 +36,9 @@ function whoWon(cells) {
   return "";
 }
 
+function showBoard() {
+  return "\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!";
+}
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
@@ -44,3 +47,4 @@ module.exports.startGame = startGame;
 module.exports.makeMove = makeMove;
 module.exports.changePlayer = changePlayer;
 module.exports.whoWon = whoWon;
+module.exports.showBoard = showBoard;
