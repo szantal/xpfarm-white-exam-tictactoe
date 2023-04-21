@@ -39,3 +39,13 @@
 	- ✅ UAT 5.4
 	- ✅ UAT 5.5
 - 🚧 planning
+
+### Pomodoro 4
+- ✅ planning 
+- 🚧 US 6
+	- ⚠ UAT 6.1
+	- ⚠ UAT 6.2
+	- ⚠ UAT 6.3
+	- ⚠ UAT 6.4
+- ⚠ US 7
+	- ⚠ UAT 7.1

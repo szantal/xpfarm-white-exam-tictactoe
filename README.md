@@ -110,3 +110,38 @@ Then it should be draw
 Given position ["X", "X", "O", " ", " ", " ", "X", " ", "O"]
 When I look for the winner
 Then it should be no winner
+
+### 🚧 US 6
+As a Tic Tac Toe fan
+I want to follow the game on the board
+So that I can cheer the players
+
+### ⚠ UAT 6.1
+Given position ["X", " ", " ", "X", "O", " ", "X", " ", "O"]
+When I look at the board
+Then it should be "\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!"
+
+### ⚠ UAT 6.2
+Given position ["X", " ", "X", "O", "O", "O", "X", " ", " "]
+When I look at the board
+Then it should be "\nPlayer O:\nX| |X\n-+-+-\nO|O|O\n-+-+-\nX| | \n\nPLAYER O WON!"
+
+### ⚠ UAT 6.3
+Given position ["X", "O", "X", "O", "O", "X", "X", "X", "O"]
+When I look at the board
+Then it should be "\nPlayer X:\nX|O|X\n-+-+-\nO|O|X\n-+-+-\nX|X|O\n\nGAME ENDS WITH A DRAW!"
+
+### ⚠ UAT 6.4
+Given position ["X", " ", " ", "O", " ", " ", "O", " ", "X"]
+When I look at the board
+Then it should be "\nPlayer O:\nX| | \n-+-+-\nO| | \n-+-+-\nO| |X\n"
+
+### ⚠ US 7 
+As a Tic Tac Toe fan
+I want to see a BOT vs BOT game with 2 seconds timeout between rounds
+So that I can learn new strategies
+
+### ⚠ UAT 7.1
+Given the BOT vs BOT game runs
+When it ends
+Then someone should win it or it ends with a draw
