@@ -31,10 +31,11 @@
 
 ### Pomodoro 3
 - ✅ planning 
-- 🚧 US 5
+- ✅ US 5
 	- ✅ UAT 5.1
 	- ✅ UAT 5.2
 	- ✅ UAT 5.3
     - ✅ refactoring whoWon()
 	- ✅ UAT 5.4
-	- 🚧 UAT 5.5
+	- ✅ UAT 5.5
+- 🚧 planning

@@ -81,7 +81,7 @@ Given player O
 When he finishes his turn
 Then actual player changes to player X
 
-### 🚧 US 5
+### ✅ US 5
 As a Tic Tac Toe fan
 I want to know who won the game
 So that I can celebrate him
@@ -106,7 +106,7 @@ Given position ["X", "O", "X", "O", "O", "X", "X", "X", "O"]
 When I look for the winner
 Then it should be draw
 
-### 🚧 UAT 5.5
+### ✅ UAT 5.5
 Given position ["X", "X", "O", " ", " ", " ", "X", " ", "O"]
 When I look for the winner
 Then it should be no winner

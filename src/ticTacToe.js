@@ -33,6 +33,7 @@ function whoWon(cells) {
     else if (cells.indexOf(" ") === -1)
       return "Draw!";
   }
+  return "";
 }
 
 module.exports.players = players;
