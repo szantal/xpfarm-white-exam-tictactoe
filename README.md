@@ -16,7 +16,7 @@ a draw.
 - ✅ DONE
 
 ## Backlog
-### 🚧 US 1 
+### ✅ US 1 
 As a Tic Tac Toe fan
 I want to have players  
 So that players can play the game
@@ -26,7 +26,7 @@ Given a new game
 When the game starts 
 Then the number of players should be 2
 
-### 🚧 UAT 1.2
+### ✅ UAT 1.2
 Given a new game
 When the game starts 
 Then the first player should be X
