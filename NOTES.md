@@ -25,6 +25,9 @@
 	- ✅ UAT 3.1
 	- ✅ UAT 3.2
     - ✅ refactoring makeMove()
-- 🚧 US 4
+- ✅ US 4
 	- ✅ UAT 4.1
-	- 🚧 UAT 4.2
+	- ✅ UAT 4.2
+
+### Pomodoro 3
+- 🚧 planning 

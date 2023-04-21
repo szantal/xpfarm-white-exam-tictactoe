@@ -66,7 +66,7 @@ Given the game board after player X moved
 When player O moves
 Then his movement appears on the game board
 
-### 🚧 US 4
+### ✅ US 4
 As a Tic Tac Toe fan
 I want to make sure players change turns
 So that the players can make their own moves
@@ -76,7 +76,7 @@ Given player X
 When he finishes his turn
 Then actual player changes to player O
 
-### 🚧 UAT 4.2
+### ✅ UAT 4.2
 Given player O
 When he finishes his turn
 Then actual player changes to player X
