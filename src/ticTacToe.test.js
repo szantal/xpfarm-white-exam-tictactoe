@@ -37,4 +37,7 @@ describe('US 4 - Tic Tac Toe player change:', () => {
   it('after player X turn the current player should be player O', () => {
     expect(changePlayer("X")).toBe("O");
   });
+  it('after player O turn the current player should be player X', () => {
+    expect(changePlayer("O")).toBe("X");
+  });
 });
