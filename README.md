@@ -41,7 +41,7 @@ Given a game board
 When I count the number of cells 
 Then it should be 9
 
-### ⚠ UAT 2.2
+### 🚧 UAT 2.2
 Given the cells of the game board
 When I want to create one
 Then the empty game board appears
