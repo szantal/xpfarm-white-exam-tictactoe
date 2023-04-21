@@ -67,4 +67,7 @@ describe('US 6 - Tic Tac Toe game board during the game:', () => {
   it('position ["X", " ", "X", "O", "O", "O", "X", " ", " "] should be "\nPlayer O:\nX| |X\n-+-+-\nO|O|O\n-+-+-\nX| | \n\nPLAYER O WON!"', () => {
     expect(showBoard(["X", " ", "X", "O", "O", "O", "X", " ", " "], "O", "O")).toBe("\nPlayer O:\nX| |X\n-+-+-\nO|O|O\n-+-+-\nX| | \n\nPLAYER O WON!");
   });
+  it('position ["X", "O", "X", "O", "O", "X", "X", "X", "O"] should be "\nPlayer X:\nX|O|X\n-+-+-\nO|O|X\n-+-+-\nX|X|O\n\nGAME ENDS WITH A DRAW!"', () => {
+    expect(showBoard(["X", "O", "X", "O", "O", "X", "X", "X", "O"], "Draw!", "X")).toBe("\nPlayer X:\nX|O|X\n-+-+-\nO|O|X\n-+-+-\nX|X|O\n\nGAME ENDS WITH A DRAW!");
+  });
 });
