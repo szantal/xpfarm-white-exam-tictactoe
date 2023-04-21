@@ -46,7 +46,7 @@ Given the cells of the game board
 When I want to create one
 Then the empty game board appears
 
-### ⚠ UAT 2.3
+### 🚧 UAT 2.3
 Given a new game
 When the game starts 
 Then the empty game board is created

@@ -18,4 +18,7 @@ describe('US 2 - Tic Tac Toe game board:', () => {
   it('an empty game board should appear as "\n | | \n-+-+-\n | | \n-+-+-\n | | "', () => {
     expect(gameBoard(cells)).toBe("\n | | \n-+-+-\n | | \n-+-+-\n | | ");
   });
+  it('an empty game board should be created when game starts: "Game Board Creation...\n | | \n-+-+-\n | | \n-+-+-\n | | \n\nBoard Created.\nThe game will start with player X"', () => {
+    expect(startGame()).toBe("Game Board Creation...\n | | \n-+-+-\n | | \n-+-+-\n | | \n\nBoard Created.\nThe game will start with player X");
+  });  
 });
