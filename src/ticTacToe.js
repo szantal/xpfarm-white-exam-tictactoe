@@ -36,11 +36,10 @@ function whoWon(cells) {
   return "";
 }
 
-function showBoard(cells) {
-  if (cells.toString() === ["X", " ", "X", "O", "O", "O", "X", " ", " "].toString())
-    return "\nPlayer O:\nX| |X\n-+-+-\nO|O|O\n-+-+-\nX| | \n\nPLAYER O WON!";
-  return "\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!";
+function showBoard(cells, winner, currentPlayer) {
+  return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n\nPLAYER " + winner + " WON!";
 }
+
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
