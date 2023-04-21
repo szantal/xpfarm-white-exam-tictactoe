@@ -30,6 +30,8 @@ function whoWon(cells) {
       && cells[winnerPositions[position][0]] === cells[winnerPositions[position][1]] 
       && cells[winnerPositions[position][0]] === cells[winnerPositions[position][2]])
       return cells[winnerPositions[position][0]];
+    else if (cells.indexOf(" ") === -1)
+      return "Draw!";
   }
 }
 

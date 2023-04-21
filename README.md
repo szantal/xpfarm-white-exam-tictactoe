@@ -101,7 +101,7 @@ Given position ["X", " ", " ", "O", "X", " ", "O", " ", "X"]
 When I look for the winner
 Then it should be player X
 
-### 🚧 UAT 5.4
+### ✅ UAT 5.4
 Given position ["X", "O", "X", "O", "O", "X", "X", "X", "O"]
 When I look for the winner
 Then it should be draw
