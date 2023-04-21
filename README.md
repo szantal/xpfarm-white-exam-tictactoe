@@ -131,7 +131,7 @@ Given position ["X", "O", "X", "O", "O", "X", "X", "X", "O"]
 When I look at the board
 Then it should be "\nPlayer X:\nX|O|X\n-+-+-\nO|O|X\n-+-+-\nX|X|O\n\nGAME ENDS WITH A DRAW!"
 
-### ⚠ UAT 6.4
+### 🚧 UAT 6.4
 Given position ["X", " ", " ", "O", " ", " ", "O", " ", "X"]
 When I look at the board
 Then it should be "\nPlayer O:\nX| | \n-+-+-\nO| | \n-+-+-\nO| |X\n"
