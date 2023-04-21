@@ -23,3 +23,8 @@ describe('US 2 - Tic Tac Toe game board:', () => {
     expect(startGame()).toBe("Game Board Creation...\n | | \n-+-+-\n | | \n-+-+-\n | | \n\nBoard Created.\nThe game will start with player X");
   });  
 });
+describe('US 3 - Tic Tac Toe player move:', () => {
+  it('when player X moves to position 0, it should return board ["X", " ", " ", " ", " ", " ", " ", " ", " "]', () => {
+    expect(makeMove("X", [" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)).toStrictEqual(["X", " ", " ", " ", " ", " ", " ", " ", " "]);
+  });
+});
