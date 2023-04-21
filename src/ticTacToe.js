@@ -24,7 +24,10 @@ function changePlayer(currentPlayer) {
 }
 
 function whoWon(cells) {
-  return "X";
+  if (cells.toString() === ["X", " ", "X", "O", "O", "O", "X", " ", " "].toString())
+    return "O"
+  else if (cells.toString() === ["X", " ", " ", "X", "O", " ", "X", " ", "O"].toString())
+    return "X";
 }
 
 module.exports.players = players;
