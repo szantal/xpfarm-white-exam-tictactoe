@@ -19,8 +19,8 @@ function makeMove(currentPlayer, cells, emptyCells, move) {
   return cells;
 }
 
-function changePlayer() {
-  return "O";
+function changePlayer(currentPlayer) {
+  return currentPlayer === "X" && "O" || "X";
 }
 
 module.exports.players = players;
