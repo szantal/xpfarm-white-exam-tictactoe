@@ -32,3 +32,8 @@ describe('US 3 - Tic Tac Toe player move:', () => {
     expect(makeMove("O", ["X", " ", " ", " ", " ", " ", " ", " ", " "], [1, 2, 3, 4, 5, 6, 7, 8], 7)).toStrictEqual(["X", " ", " ", " ", " ", " ", " ", " ", "O"]);
   });
 });
+describe('US 4 - Tic Tac Toe player change:', () => {
+  it('after player X turn the current player should be player O', () => {
+    expect(changePlayer("X")).toBe("O");
+  });
+});
