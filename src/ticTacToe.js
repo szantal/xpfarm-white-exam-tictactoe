@@ -13,7 +13,7 @@ function startGame() {
   return "Game Board Creation..." + gameBoard(cells) + "\n\nBoard Created.\nThe game will start with player X";
 }
 
-function makeMove(currentPlayer, cells, emptyCells, move) {
+function makeMove(currentPlayer, cells, emptyCells, move = Math.floor(Math.random() * emptyCells.length)) {
   cells[emptyCells[move]] = currentPlayer;
   emptyCells.splice(move, 1);
   return cells;
@@ -24,7 +24,7 @@ function changePlayer(currentPlayer) {
 }
 
 function whoWon(cells) {
-  let winnerPositions = [[0, 3, 6], [3, 4, 5], [0, 4, 8]];
+  let winnerPositions = [[0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 4, 8], [2, 4, 6]];
   for (let position = 0; position < winnerPositions.length; position++) {
     if (cells[winnerPositions[position][0]] != " "
       && cells[winnerPositions[position][0]] === cells[winnerPositions[position][1]] 
@@ -45,6 +45,40 @@ function showBoard(cells, winner, currentPlayer) {
   	return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n\nPLAYER " + winner + " WON!";
 }
 
+function gamePlay() {
+  let winner = "";
+  emptyCells = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
+  console.log(startGame());
+  for (let step = 1; step <= 9 && winner === ""; step++) {
+        sleep(2000);
+        makeMove(currentPlayer, cells, emptyCells);
+        winner = whoWon(cells);
+        if (winner === "" && emptyCells.length > 0) {
+        	console.log(showBoard(cells, winner, currentPlayer));
+          currentPlayer = changePlayer(currentPlayer);
+        }
+        else if (winner === "" && emptyCells.length === 0) {
+          winner = "Draw!";
+          console.log(showBoard(cells, winner, currentPlayer));
+          return winner;
+        }
+        else {
+        	console.log(showBoard(cells, winner, currentPlayer));
+        	return winner;
+        }
+    }
+}
+
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } 
+  while (currentDate - date < milliseconds);
+}
+
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
@@ -54,3 +88,4 @@ module.exports.makeMove = makeMove;
 module.exports.changePlayer = changePlayer;
 module.exports.whoWon = whoWon;
 module.exports.showBoard = showBoard;
+module.exports.gamePlay = gamePlay;

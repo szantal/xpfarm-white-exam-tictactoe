@@ -136,12 +136,12 @@ Given position ["X", " ", " ", "O", " ", " ", "O", " ", "X"]
 When I look at the board
 Then it should be "\nPlayer O:\nX| | \n-+-+-\nO| | \n-+-+-\nO| |X\n"
 
-### 🚧 US 7 
+### ✅ US 7 
 As a Tic Tac Toe fan
 I want to see a BOT vs BOT game with 2 seconds timeout between rounds
 So that I can learn new strategies
 
-### 🚧 UAT 7.1
+### ✅ UAT 7.1
 Given the BOT vs BOT game runs
 When it ends
 Then someone should win it or it ends with a draw
