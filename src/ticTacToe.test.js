@@ -59,3 +59,8 @@ describe('US 5 - Tic Tac Toe winner', () => {
     expect(whoWon(["X", "X", "O", " ", " ", " ", "X", " ", "O"])).toBe("");
   });
 });
+describe('US 6 - Tic Tac Toe game board during the game:', () => {
+  it('position ["X", " ", " ", "X", "O", " ", "X", " ", "O"] should be "\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!"', () => {
+    expect(showBoard(["X", " ", " ", "X", "O", " ", "X", " ", "O"], "X", "X")).toBe("\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!");
+  });
+});

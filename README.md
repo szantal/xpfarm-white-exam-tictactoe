@@ -116,7 +116,7 @@ As a Tic Tac Toe fan
 I want to follow the game on the board
 So that I can cheer the players
 
-### ⚠ UAT 6.1
+### 🚧 UAT 6.1
 Given position ["X", " ", " ", "X", "O", " ", "X", " ", "O"]
 When I look at the board
 Then it should be "\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!"
