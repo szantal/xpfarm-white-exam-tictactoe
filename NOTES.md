@@ -9,8 +9,8 @@
 ### Pomodoro 1
 - ✅ set up environment, empty project commit
 - ✅ planning
-- ⚠ rename files
-- ⚠ US 1
+- ✅ rename files
+- 🚧 US 1
     - ⚠ UAT 1.1
     - ⚠ UAT 1.2
 - ⚠ US 2

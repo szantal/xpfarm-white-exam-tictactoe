@@ -16,7 +16,7 @@ a draw.
 - ✅ DONE
 
 ## Backlog
-### ⚠ US 1 
+### 🚧 US 1 
 As a Tic Tac Toe fan
 I want to have players  
 So that players can play the game
