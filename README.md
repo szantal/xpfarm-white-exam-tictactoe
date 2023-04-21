@@ -121,7 +121,7 @@ Given position ["X", " ", " ", "X", "O", " ", "X", " ", "O"]
 When I look at the board
 Then it should be "\nPlayer X:\nX| | \n-+-+-\nX|O| \n-+-+-\nX| |O\n\nPLAYER X WON!"
 
-### 🚧 UAT 6.2
+### ✅ UAT 6.2
 Given position ["X", " ", "X", "O", "O", "O", "X", " ", " "]
 When I look at the board
 Then it should be "\nPlayer O:\nX| |X\n-+-+-\nO|O|O\n-+-+-\nX| | \n\nPLAYER O WON!"
