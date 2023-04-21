@@ -61,7 +61,7 @@ Given the empty game board
 When player X moves
 Then his movement appears on the game board
 
-### ⚠ UAT 3.2
+### 🚧 UAT 3.2
 Given the game board after player X moved
 When player O moves
 Then his movement appears on the game board
