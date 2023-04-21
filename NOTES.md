@@ -42,11 +42,11 @@
 
 ### Pomodoro 4
 - ✅ planning 
-- 🚧 US 6
+- ✅ US 6
 	- ✅ UAT 6.1
 	- ✅ UAT 6.2
     - ✅ refactoring showBoard()
 	- ✅ UAT 6.3
 	- ✅ UAT 6.4
-- ⚠ US 7
-	- ⚠ UAT 7.1
+- 🚧 US 7
+	- 🚧 UAT 7.1

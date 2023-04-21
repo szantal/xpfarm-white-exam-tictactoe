@@ -74,3 +74,9 @@ describe('US 6 - Tic Tac Toe game board during the game:', () => {
     expect(showBoard(["X", " ", " ", "O", " ", " ", "O", " ", "X"], "", "O")).toBe("\nPlayer O:\nX| | \n-+-+-\nO| | \n-+-+-\nO| |X\n");
   });
 });
+describe('US 7 - Tic Tac Toe BOT vs BOT game', () => {
+  it('should end until someone wins or it ends with a draw', () => {
+    const winners = ["X", "O", "Draw!"];
+    expect(winners).toContain(gamePlay());
+  });
+});
