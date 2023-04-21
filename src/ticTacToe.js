@@ -1,6 +1,7 @@
 let players = ["X", "O"];
 let currentPlayer = "X";
 let cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
+let emptyCells = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
 function gameBoard(cells) {
   let line = "\n-+-+-\n";
@@ -12,11 +13,10 @@ function startGame() {
   return "Game Board Creation..." + gameBoard(cells) + "\n\nBoard Created.\nThe game will start with player X";
 }
 
-function makeMove(currentPlayer, cells, move) {
-  if (currentPlayer === "O" && cells.toString() === ["X", " ", " ", " ", " ", " ", " ", " ", " "].toString() && move === 7)
-    return ["X", " ", " ", " ", " ", " ", " ", " ", "O"];
-  else 
-    return ["X", " ", " ", " ", " ", " ", " ", " ", " "];
+function makeMove(currentPlayer, cells, emptyCells, move) {
+  cells[emptyCells[move]] = currentPlayer;
+  emptyCells.splice(move, 1);
+  return cells;
 }
 
 module.exports.players = players;

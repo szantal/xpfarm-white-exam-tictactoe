@@ -21,10 +21,10 @@
 
 ### Pomodoro 2
 - ✅ planning 
-- 🚧 US 3
+- ✅ US 3
 	- ✅ UAT 3.1
 	- ✅ UAT 3.2
-    - 🚧 refactoring makeMove()
+    - ✅ refactoring makeMove()
 - ⚠ US 4
 	- ⚠ UAT 4.1
 	- ⚠ UAT 4.2

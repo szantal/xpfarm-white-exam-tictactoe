@@ -51,7 +51,7 @@ Given a new game
 When the game starts 
 Then the empty game board is created
 
-### 🚧 US 3
+### ✅ US 3
 As a Tic Tac Toe fan 
 I want to see players' moves on the board 
 So that I can follow the gameplay

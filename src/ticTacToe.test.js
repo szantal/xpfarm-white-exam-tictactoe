@@ -26,9 +26,9 @@ describe('US 2 - Tic Tac Toe game board:', () => {
 });
 describe('US 3 - Tic Tac Toe player move:', () => {
   it('when player X moves to position 0, it should return board ["X", " ", " ", " ", " ", " ", " ", " ", " "]', () => {
-    expect(makeMove("X", [" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)).toStrictEqual(["X", " ", " ", " ", " ", " ", " ", " ", " "]);
+    expect(makeMove("X", [" ", " ", " ", " ", " ", " ", " ", " ", " "], [0, 1, 2, 3, 4, 5, 6, 7, 8], 0)).toStrictEqual(["X", " ", " ", " ", " ", " ", " ", " ", " "]);
   });
   it('when player O moves to position 8, it should return board ["X", " ", " ", " ", " ", " ", " ", " ", "O"]', () => {
-    expect(makeMove("O", ["X", " ", " ", " ", " ", " ", " ", " ", " "], 7)).toStrictEqual(["X", " ", " ", " ", " ", " ", " ", " ", "O"]);
+    expect(makeMove("O", ["X", " ", " ", " ", " ", " ", " ", " ", " "], [1, 2, 3, 4, 5, 6, 7, 8], 7)).toStrictEqual(["X", " ", " ", " ", " ", " ", " ", " ", "O"]);
   });
 });
