@@ -80,3 +80,33 @@ Then actual player changes to player O
 Given player O
 When he finishes his turn
 Then actual player changes to player X
+
+### 🚧 US 5
+As a Tic Tac Toe fan
+I want to know who won the game
+So that I can celebrate him
+
+### ⚠ UAT 5.1
+Given position ["X", " ", " ", "X", "O", " ", "X", " ", "O"]
+When I look for the winner
+Then it should be player X
+
+### ⚠ UAT 5.2
+Given position ["X", " ", "X", "O", "O", "O", "X", " ", " "]
+When I look for the winner
+Then it should be player O
+
+### ⚠ UAT 5.3
+Given position ["X", " ", " ", "O", "X", " ", "O", " ", "X"]
+When I look for the winner
+Then it should be player X
+
+### ⚠ UAT 5.4
+Given position ["X", "O", "X", "O", "O", "X", "X", "X", "O"]
+When I look for the winner
+Then it should be draw
+
+### ⚠ UAT 5.5
+Given position ["X", "X", "O", " ", " ", " ", "X", " ", "O"]
+When I look for the winner
+Then it should be no winner
