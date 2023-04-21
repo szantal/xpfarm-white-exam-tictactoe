@@ -37,10 +37,12 @@ function whoWon(cells) {
 }
 
 function showBoard(cells, winner, currentPlayer) {
-  if (winner === "X" || winner === "O")
-    return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n\nPLAYER " + winner + " WON!";
+	if (winner === "") 
+  	return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n";
   else if (winner === "Draw!")
-    return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n\nGAME ENDS WITH A DRAW!";
+  	return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n\nGAME ENDS WITH A DRAW!";
+  else if (winner === "X" || winner === "O")
+  	return "\nPlayer " + currentPlayer + ":" + gameBoard(cells) + "\n\nPLAYER " + winner + " WON!";
 }
 
 module.exports.players = players;

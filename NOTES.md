@@ -47,6 +47,6 @@
 	- ✅ UAT 6.2
     - ✅ refactoring showBoard()
 	- ✅ UAT 6.3
-	- 🚧 UAT 6.4
+	- ✅ UAT 6.4
 - ⚠ US 7
 	- ⚠ UAT 7.1
