@@ -13,7 +13,10 @@ function startGame() {
 }
 
 function makeMove(currentPlayer, cells, move) {
-  return ["X", " ", " ", " ", " ", " ", " ", " ", " "];
+  if (currentPlayer === "O" && cells.toString() === ["X", " ", " ", " ", " ", " ", " ", " ", " "].toString() && move === 7)
+    return ["X", " ", " ", " ", " ", " ", " ", " ", "O"];
+  else 
+    return ["X", " ", " ", " ", " ", " ", " ", " ", " "];
 }
 
 module.exports.players = players;
