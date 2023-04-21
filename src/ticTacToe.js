@@ -3,7 +3,8 @@ let currentPlayer = "X";
 let cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 
 function gameBoard(cells) {
-  let board = "\n" + cells[0] + "|" + cells[1] + "|" + cells[2] + "\n-+-+-\n" + cells[3] + "|" + cells[4] + "|" + cells[5] + "\n-+-+-\n" + cells[6] + "|" + cells[7] + "|" + cells[8];
+  let line = "\n-+-+-\n";
+  let board = "\n" + cells[0] + "|" + cells[1] + "|" + cells[2] + line + cells[3] + "|" + cells[4] + "|" + cells[5] + line + cells[6] + "|" + cells[7] + "|" + cells[8];
   return board;
 }
 

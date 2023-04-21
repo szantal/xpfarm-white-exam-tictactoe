@@ -16,4 +16,5 @@
 - 🚧 US 2
     - ✅ UAT 2.1
     - ✅ UAT 2.2
+    - ✅ refactor gameBoard()
     - ⚠ UAT 2.3
