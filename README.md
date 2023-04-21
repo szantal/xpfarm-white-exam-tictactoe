@@ -36,7 +36,7 @@ As a Tic Tac Toe fan
 I want to have an empty game board 
 So that players' moves can be followed there
 
-### 🚧 UAT 2.1
+### ✅ UAT 2.1
 Given a game board
 When I count the number of cells 
 Then it should be 9
