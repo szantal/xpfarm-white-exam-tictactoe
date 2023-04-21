@@ -1,3 +1,4 @@
+const players = require('./ticTacToe').players;
 const ticTacToe = require('./ticTacToe');
 
 describe('US 1 - Tic Tac Toe players:', () => {
