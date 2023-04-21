@@ -19,9 +19,14 @@ function makeMove(currentPlayer, cells, emptyCells, move) {
   return cells;
 }
 
+function changePlayer() {
+  return "O";
+}
+
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
 module.exports.gameBoard = gameBoard;
 module.exports.startGame = startGame;
 module.exports.makeMove = makeMove;
+module.exports.changePlayer = changePlayer;
