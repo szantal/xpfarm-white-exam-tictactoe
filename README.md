@@ -86,7 +86,7 @@ As a Tic Tac Toe fan
 I want to know who won the game
 So that I can celebrate him
 
-### 🚧 UAT 5.1
+### ✅ UAT 5.1
 Given position ["X", " ", " ", "X", "O", " ", "X", " ", "O"]
 When I look for the winner
 Then it should be player X

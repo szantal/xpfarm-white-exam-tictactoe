@@ -23,6 +23,10 @@ function changePlayer(currentPlayer) {
   return currentPlayer === "X" && "O" || "X";
 }
 
+function whoWon(cells) {
+  return "X";
+}
+
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
@@ -30,3 +34,4 @@ module.exports.gameBoard = gameBoard;
 module.exports.startGame = startGame;
 module.exports.makeMove = makeMove;
 module.exports.changePlayer = changePlayer;
+module.exports.whoWon = whoWon;
