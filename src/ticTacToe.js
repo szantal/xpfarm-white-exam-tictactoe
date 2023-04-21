@@ -8,7 +8,12 @@ function gameBoard(cells) {
   return board;
 }
 
+function startGame() {
+  return "Game Board Creation..." + gameBoard(cells) + "\n\nBoard Created.\nThe game will start with player X";
+}
+
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
 module.exports.gameBoard = gameBoard;
+module.exports.startGame = startGame;

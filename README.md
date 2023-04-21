@@ -31,7 +31,7 @@ Given a new game
 When the game starts 
 Then the first player should be X
 
-### 🚧 US 2 
+### ✅ US 2 
 As a Tic Tac Toe fan
 I want to have an empty game board 
 So that players' moves can be followed there
@@ -46,7 +46,7 @@ Given the cells of the game board
 When I want to create one
 Then the empty game board appears
 
-### 🚧 UAT 2.3
+### ✅ UAT 2.3
 Given a new game
 When the game starts 
 Then the empty game board is created
