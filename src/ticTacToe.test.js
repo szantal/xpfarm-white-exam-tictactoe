@@ -41,3 +41,8 @@ describe('US 4 - Tic Tac Toe player change:', () => {
     expect(changePlayer("O")).toBe("X");
   });
 });
+describe('US 5 - Tic Tac Toe winner', () => {
+  it('should be player X in position ["X", " ", " ", "X", "O", " ", "X", " ", "O"]', () => {
+    expect(whoWon(["X", " ", " ", "X", "O", " ", "X", " ", "O"])).toBe("X");
+  });
+});
