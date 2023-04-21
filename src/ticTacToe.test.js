@@ -10,3 +10,8 @@ describe('US 1 - Tic Tac Toe players:', () => {
     expect(currentPlayer).toBe("X");
   });
 });
+describe('US 2 - Tic Tac Toe game board:', () => {
+  it('the number of cells of the game board should be 9', () => {
+    expect(cells.length).toBe(9);
+  });
+});
