@@ -23,7 +23,8 @@
 - ✅ planning 
 - 🚧 US 3
 	- ✅ UAT 3.1
-	- 🚧 UAT 3.2
+	- ✅ UAT 3.2
+    - 🚧 refactoring makeMove()
 - ⚠ US 4
 	- ⚠ UAT 4.1
 	- ⚠ UAT 4.2
