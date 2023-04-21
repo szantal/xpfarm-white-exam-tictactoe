@@ -24,11 +24,13 @@ function changePlayer(currentPlayer) {
 }
 
 function whoWon(cells) {
-  if (cells.toString() === ["X", " ", "X", "O", "O", "O", "X", " ", " "].toString())
-    return "O"
-  else if (cells.toString() === ["X", " ", " ", "X", "O", " ", "X", " ", "O"].toString()
-    || cells.toString() === ["X", " ", " ", "O", "X", " ", "O", " ", "X"].toString())
-    return "X";
+  let winnerPositions = [[0, 3, 6], [3, 4, 5], [0, 4, 8]];
+  for (let position = 0; position < winnerPositions.length; position++) {
+    if (cells[winnerPositions[position][0]] != " "
+      && cells[winnerPositions[position][0]] === cells[winnerPositions[position][1]] 
+      && cells[winnerPositions[position][0]] === cells[winnerPositions[position][2]])
+      return cells[winnerPositions[position][0]];
+  }
 }
 
 module.exports.players = players;

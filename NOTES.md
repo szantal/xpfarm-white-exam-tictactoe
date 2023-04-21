@@ -35,6 +35,6 @@
 	- ✅ UAT 5.1
 	- ✅ UAT 5.2
 	- ✅ UAT 5.3
-    - 🚧 refactoring whoWon()
+    - ✅ refactoring whoWon()
 	- ⚠ UAT 5.4
 	- ⚠ UAT 5.5
