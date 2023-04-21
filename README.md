@@ -50,3 +50,33 @@ Then the empty game board appears
 Given a new game
 When the game starts 
 Then the empty game board is created
+
+### 🚧 US 3
+As a Tic Tac Toe fan 
+I want to see players' moves on the board 
+So that I can follow the gameplay
+
+### ⚠ UAT 3.1
+Given the empty game board
+When player X moves
+Then his movement appears on the game board
+
+### ⚠ UAT 3.2
+Given the game board after player X moved
+When player O moves
+Then his movement appears on the game board
+
+### ⚠ US 4
+As a Tic Tac Toe fan
+I want to make sure players change turns
+So that the players can make their own moves
+
+### ⚠ UAT 4.1
+Given player X
+When he finishes his turn
+Then actual player changes to player O
+
+### ⚠ UAT 4.2
+Given player O
+When he finishes his turn
+Then actual player changes to player X

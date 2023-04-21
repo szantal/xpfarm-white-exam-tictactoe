@@ -20,4 +20,10 @@
     - ✅ UAT 2.3
 
 ### Pomodoro 2
-- 🚧 planning 
+- ✅ planning 
+- 🚧 US 3
+	- ⚠ UAT 3.1
+	- ⚠ UAT 3.2
+- ⚠ US 4
+	- ⚠ UAT 4.1
+	- ⚠ UAT 4.2
