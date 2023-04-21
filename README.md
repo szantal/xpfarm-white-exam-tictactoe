@@ -21,7 +21,7 @@ As a Tic Tac Toe fan
 I want to have players  
 So that players can play the game
 
-### ⚠ UAT 1.1
+### 🚧 UAT 1.1
 Given a new game
 When the game starts 
 Then the number of players should be 2

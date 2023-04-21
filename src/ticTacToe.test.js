@@ -1,7 +1,7 @@
 const ticTacToe = require('./ticTacToe');
 
-describe('hello', () => {
-  it('should return hello', () => {
-    expect(ticTacToe()).toBe('hello');
+describe('US 1 - Tic Tac Toe players:', () => {
+  it('the number of players should be 2', () => {
+    expect(players.length).toBe(2);
   });
 });
