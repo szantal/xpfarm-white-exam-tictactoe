@@ -3,6 +3,7 @@ const currentPlayer = require('./ticTacToe').currentPlayer;
 const cells = require('./ticTacToe').cells;
 const gameBoard = require('./ticTacToe').gameBoard;
 const startGame = require('./ticTacToe').startGame;
+const makeMove = require('./ticTacToe').makeMove;
 
 describe('US 1 - Tic Tac Toe players:', () => {
   it('the number of players should be 2', () => {

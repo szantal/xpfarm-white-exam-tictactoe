@@ -12,8 +12,13 @@ function startGame() {
   return "Game Board Creation..." + gameBoard(cells) + "\n\nBoard Created.\nThe game will start with player X";
 }
 
+function makeMove(currentPlayer, cells, move) {
+  return ["X", " ", " ", " ", " ", " ", " ", " ", " "];
+}
+
 module.exports.players = players;
 module.exports.currentPlayer = currentPlayer;
 module.exports.cells = cells;
 module.exports.gameBoard = gameBoard;
 module.exports.startGame = startGame;
+module.exports.makeMove = makeMove;

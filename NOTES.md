@@ -22,7 +22,7 @@
 ### Pomodoro 2
 - ✅ planning 
 - 🚧 US 3
-	- 🚧 UAT 3.1
+	- ✅ UAT 3.1
 	- ⚠ UAT 3.2
 - ⚠ US 4
 	- ⚠ UAT 4.1

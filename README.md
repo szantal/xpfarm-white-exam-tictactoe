@@ -56,7 +56,7 @@ As a Tic Tac Toe fan
 I want to see players' moves on the board 
 So that I can follow the gameplay
 
-### 🚧 UAT 3.1
+### ✅ UAT 3.1
 Given the empty game board
 When player X moves
 Then his movement appears on the game board
