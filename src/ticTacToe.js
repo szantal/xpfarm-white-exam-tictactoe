@@ -26,7 +26,8 @@ function changePlayer(currentPlayer) {
 function whoWon(cells) {
   if (cells.toString() === ["X", " ", "X", "O", "O", "O", "X", " ", " "].toString())
     return "O"
-  else if (cells.toString() === ["X", " ", " ", "X", "O", " ", "X", " ", "O"].toString())
+  else if (cells.toString() === ["X", " ", " ", "X", "O", " ", "X", " ", "O"].toString()
+    || cells.toString() === ["X", " ", " ", "O", "X", " ", "O", " ", "X"].toString())
     return "X";
 }
 
